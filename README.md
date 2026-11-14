@@ -9,7 +9,7 @@ Find Vinted UK clothes from a Codex chat. Vinted Basket is an independent open-s
 ## Try it in Codex
 
 ```text
-Scout Vinted for me: https://is.gd/SecondhandScout
+Scout Vinted for me: https://is.gd/VintedBasket
 ```
 
 Paste the line into a Codex chat with HTTP or terminal access. Tell Scout what you want, your sizes, and your total budget including delivery. No checkout or MCP setup is needed. Codex may ask for network approval. The short link leads to the [hosted Scout guide](https://secondhand-scout-production.up.railway.app/start).
