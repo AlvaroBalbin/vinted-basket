@@ -1,8 +1,10 @@
 # Secondhand Scout
 
-**Two Ralph Lauren shirts for £20.64 estimated delivered.** In a live Codex session, Scout found both in Vinted UK’s 41 cm collar category, then kept the basket when it couldn’t find a cheaper swap.
+Find Vinted UK clothes from a Codex chat. Tell Scout what you want, your size and your delivered budget. It returns listing links and compares the total with fees and postage.
 
-![Scout demo showing the £20.64 shirt basket and the cheaper-swap check](docs/launch/scout-demo.gif)
+![Scout demo: ask for two classic-fit Ralph Lauren shirts in the 41 cm collar category, get two picks for £20.64 estimated delivered, then copy the Codex prompt](docs/launch/scout-demo.gif)
+
+**Real search example:** Two classic-fit Ralph Lauren shirts for **£20.64 estimated delivered**. Scout kept the basket when it couldn't find a cheaper swap.
 
 ## Try it in Codex
 
