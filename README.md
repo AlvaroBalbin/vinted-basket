@@ -1,6 +1,6 @@
-# Secondhand Scout
+# Vinted Basket
 
-Find Vinted UK clothes from a Codex chat. Tell Scout what you want, your size and your delivered budget. It returns listing links and compares the total with fees and postage.
+Find Vinted UK clothes from a Codex chat. Vinted Basket is an independent open-source project. Tell Scout what you want, your size and your delivered budget. It returns listing links and compares the total with fees and postage.
 
 ![Scout demo: ask for two classic-fit Ralph Lauren shirts in the 41 cm collar category, get two picks for £20.64 estimated delivered, then copy the Codex prompt](docs/launch/scout-demo.gif)
 
@@ -14,12 +14,12 @@ Scout Vinted for me: https://is.gd/SecondhandScout
 
 Paste the line into a Codex chat with HTTP or terminal access. Tell Scout what you want, your sizes, and your total budget including delivery. No checkout or MCP setup is needed. Codex may ask for network approval. The short link leads to the [hosted Scout guide](https://secondhand-scout-production.up.railway.app/start).
 
-Scout is an open-source Vinted UK deal finder. It compares estimated delivered prices and looks for same-seller bundles. If Scout helps you find something, star the repo to save it.
+Vinted Basket compares listings from Vinted UK. It compares estimated delivered prices and looks for same-seller bundles. If Scout helps you find something, star the repo to save it.
 
 ## Run Scout from a local checkout
 
 ```text
-Be my Secondhand Scout for Vinted UK. Find the Secondhand Scout checkout in this workspace or clone https://github.com/AlvaroBalbin/secondhand-scout.git here, read AGENT-QUICKSTART.md, and run the shopping commands yourself. Ask me for any missing shopping details in one message. Show numbered picks and delivered estimates. When I say save, skip, or more like this, carry my choices forward and show what changed.
+Be my Vinted Basket for Vinted UK. Find the Vinted Basket checkout in this workspace or clone https://github.com/AlvaroBalbin/vinted-basket.git here, read AGENT-QUICKSTART.md, and run the shopping commands yourself. Ask me for any missing shopping details in one message. Show numbered picks and delivered estimates. When I say save, skip, or more like this, carry my choices forward and show what changed.
 ```
 
 Use a Codex or Claude Code chat with terminal access and Git and Node.js 22 or newer available. The agent handles the clone and search without an npm install or MCP setup. Approve the clone or search if your client asks. If live access is blocked, the agent can give you prefilled Vinted searches to open. [Agent quickstart](AGENT-QUICKSTART.md)
@@ -29,8 +29,8 @@ Use a Codex or Claude Code chat with terminal access and Git and Node.js 22 or n
 Requires Git and Node.js 22 or newer. Run these commands in your terminal.
 
 ```sh
-git clone https://github.com/AlvaroBalbin/secondhand-scout.git
-cd secondhand-scout
+git clone https://github.com/AlvaroBalbin/vinted-basket.git
+cd vinted-basket
 npm run scout
 ```
 
@@ -68,7 +68,7 @@ claude mcp add --scope user --transport stdio secondhand-scout -- node "$PWD/scr
 
 Open a new session and ask:
 
-> Use Secondhand Scout to find three Ralph Lauren or Hackett shirts with a 41 cm collar, two size L jumpers and one size L gilet on Vinted UK. My total budget is £150 with delivery. Look for same-seller bundles.
+> Use Vinted Basket to find three Ralph Lauren or Hackett shirts with a 41 cm collar, two size L jumpers and one size L gilet on Vinted UK. My total budget is £150 with delivery. Look for same-seller bundles.
 
 For a quick connection check, ask it to use `demo_deals` with your preferences. The server runs locally over standard input and output. It offers four read-only tools for live search, checking item links, ranking supplied listings and trying fictional examples. Setup requires no Vinted credentials or separate model API key. [Codex MCP setup](https://developers.openai.com/codex/mcp) · [Claude Code MCP setup](https://code.claude.com/docs/en/mcp)
 
