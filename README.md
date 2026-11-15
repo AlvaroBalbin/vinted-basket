@@ -1,18 +1,22 @@
 # Vinted Basket
 
-Find Vinted UK clothes from a Codex chat. Vinted Basket is an independent open-source project. Tell Scout what you want, your size and your delivered budget. It returns listing links and compares the total with fees and postage.
+Find clothes on Vinted UK within your budget, including fees and postage. Vinted Basket is an independent open-source project.
 
-![Scout demo: ask for two classic-fit Ralph Lauren shirts in the 41 cm collar category, get two picks for £20.64 estimated delivered, then copy the Codex prompt](docs/launch/scout-demo.gif)
+## Start here
 
-**Real search example:** Two classic-fit Ralph Lauren shirts for **£20.64 estimated delivered**. Scout kept the basket when it couldn't find a cheaper swap.
-
-## Try it in Codex
+Open a new chat in **Codex** or **Claude Code**. Copy the whole line below into the chat box and send it.
 
 ```text
-Scout Vinted for me: https://is.gd/VintedBasket
+Help me find clothes on Vinted UK. Ask what I want, my size and my budget including delivery. Open https://is.gd/VintedBasket and follow its live search instructions. If you can't run the search, give me Vinted search links I can open.
 ```
 
-Paste the line into a Codex chat with HTTP or terminal access. Tell Scout what you want, your sizes, and your total budget including delivery. No checkout or MCP setup is needed. Codex may ask for network approval. The short link leads to the [hosted Scout guide](https://secondhand-scout-production.up.railway.app/start).
+When asked, tell it what you're after. For example, “Two men's Ralph Lauren classic-fit shirts, 41 cm collar, £40 total including delivery.” If your chat asks for network access, allow it to connect to the [hosted Vinted Basket guide](https://secondhand-scout-production.up.railway.app/start). No checkout or MCP setup is needed.
+
+**Using another AI chat?** Paste the same line. Live results need a tool that can send an HTTP POST request, such as a network-enabled terminal. Without one, open the Vinted search links the chat gives you and paste back the listings' sizes, prices and delivery costs to compare them.
+
+**Real search example.** Two classic-fit Ralph Lauren shirts for **£20.64 estimated delivered**. Scout kept the basket when it couldn't find a cheaper swap.
+
+![Scout demo: ask for two classic-fit Ralph Lauren shirts in the 41 cm collar category, get two picks for £20.64 estimated delivered, then copy the Codex prompt](docs/launch/scout-demo.gif)
 
 Vinted Basket compares listings from Vinted UK. It compares estimated delivered prices and looks for same-seller bundles. If Scout helps you find something, star the repo to save it.
 
