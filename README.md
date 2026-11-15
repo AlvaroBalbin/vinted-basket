@@ -7,7 +7,7 @@ Find clothes on Vinted UK within your budget, including fees and postage. Vinted
 Open a new chat in **Codex** or **Claude Code**. Copy the whole line below into the chat box and send it.
 
 ```text
-Help me find clothes on Vinted UK. Ask what I want, my size and my budget including delivery. Open https://is.gd/VintedBasket and follow its live search instructions. If you can't run the search, give me Vinted search links I can open.
+Help me find clothes on Vinted UK. Ask what I want, my size and my budget including delivery. Use my exact sizes without converting them. Open https://is.gd/VintedBasket and follow its live search instructions. If you can't run the search, give me Vinted search links I can open.
 ```
 
 When asked, tell it what you're after. For example, “Two men's Ralph Lauren classic-fit shirts, 41 cm collar, £40 total including delivery.” If your chat asks for network access, allow it to connect to the [hosted Vinted Basket guide](https://secondhand-scout-production.up.railway.app/start). No checkout or MCP setup is needed.
